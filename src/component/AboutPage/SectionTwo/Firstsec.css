@@ -1,0 +1,41 @@
+.imagess
+{
+	padding-top:100px;
+	text-align:-webkit-center;
+}
+.ab{
+    padding-top: 60px !important;
+	padding-bottom:100px;
+}
+
+.a{
+    background-color:#f3f3f3;
+}
+
+.text1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.text2{
+    text-align: left; 
+    font-family: lora;
+     font-size: 24px; 
+     font-style: italic;
+     color: rgb(146, 146, 146);
+}
+
+.text3{
+    box-sizing: border-box;
+    
+    display: block;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 300;
+    height: 172.8px;
+    line-height: 28.8px;
+}
+
+.parent1{
+    margin:0 15px 0 15px;
+}

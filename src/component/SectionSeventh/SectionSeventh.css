@@ -1,0 +1,25 @@
+.background
+{
+background-image:url('../../images/homenight4.jpg');
+background-position:center;
+background-repeat:no-repeat;
+background-size:cover;
+width:100%;
+}
+.design
+{
+	padding-top:200px;
+}
+.textcolor
+{
+	color:white;
+}
+@media only screen and (max-width: 763px){ 
+.textalign
+{
+	text-align:center;
+}
+}
+.downside{
+	padding-top:100px;
+}

@@ -1,0 +1,73 @@
+@media only screen and (max-width:767px){
+.mobilevieww
+{
+margin-top:150px;	
+}
+}
+.top-bg-slide{
+position: relative; 
+}
+.grey-clr{
+filter: grayscale(0.3) brightness(40%);
+}
+.top-silde-item{
+position: absolute;
+top: 50%;
+left: 20%;
+transform: translate(-20%, -50%);
+}
+.top-bg-slide .carousel-item{
+height: 100vh;
+}
+.top-bg-slide .carousel-indicators{
+margin: 0;
+}
+@media only screen and (min-width:992px){
+.top-bg-slide .carousel-indicators{
+top: 10%;
+left: 60%;
+width: 400px;
+height: 200px;
+}
+}
+@media only screen and (min-width:500px) and (max-width:992px){
+.top-bg-slide .carousel-indicators{
+top: 10%;
+left: 60%;
+width: 200px;
+height: 200px;
+}
+}
+.top-bg-slide .carousel-indicators>li{
+width: 3rem;
+height: 3rem;
+background-size: 1.2rem;
+background-repeat: no-repeat;
+background-position: center;
+}
+.top-bg-slide .carousel-indicators>li:nth-child(1){
+background-image: url('../../images/Number1.png');
+}
+.top-bg-slide .carousel-indicators>li:nth-child(2){
+background-image: url('../../images/Number2.png');
+}
+.top-bg-slide .carousel-indicators>li:nth-child(3){
+background-image: url('../../images/Number3.png');
+}
+
+.top-bg-slide .carousel-control-prev{
+display: none;
+}
+.top-bg-slide .carousel-control-next{
+display: none;
+}
+.txt-sty{
+font-size: 4rem;
+font-weight: 100
+}
+.soci-lk{
+border: 1px solid #FFFFFF;
+border-radius: 50%;
+padding: 10px;
+margin-right: 8px; 
+}

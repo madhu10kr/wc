@@ -1,0 +1,86 @@
+.customrow
+{
+	padding-top:100px;
+	padding-bottom:50px;
+}
+.customcol
+{
+	background-image:url('../../images/background.jpg');
+background-position:center;
+background-repeat:no-repeat;
+height:400px;
+position: relative;
+
+}
+.customcol3
+{
+	background-image:url('../../images/background.jpg');
+background-position:center;
+background-repeat:no-repeat;
+height:400px;
+position: relative;
+
+}
+.custom{
+	padding:50px;
+}
+.customcol1
+{
+	background-image:url('../../images/background.jpg');
+background-position:center;
+background-repeat:no-repeat;
+height:350px;
+/* width:350px; */
+position: relative;
+}
+.style{
+margin:15px!important;
+}
+.textsection
+{
+	padding-left:50px;
+	padding-right:50px;
+}
+.customcol2
+{
+	background-image:url('../../images/background.jpg');
+background-position:center;
+background-repeat:no-repeat;
+height:500px;
+/* width:350px; */
+position: relative;
+}
+.card{
+	border-radius:0px!important;
+}
+
+.custom1
+{
+	padding:50px;
+}
+
+.customcol .card{
+position: absolute;
+bottom:0%;
+left:0%;
+
+}
+.customcol3 .card{
+position: absolute;
+bottom:0%;
+right:0%;
+
+}
+
+.customcol1 .child1{
+position: absolute;
+bottom:0%;
+right:0%;
+
+}
+.child2{
+position: absolute;
+bottom:0%;
+right:0%;
+
+}

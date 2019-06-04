@@ -1,0 +1,44 @@
+a
+{
+	text-decoration:none!important;
+}
+.navbar-toggler
+{
+	background-color:white!important;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white !IMPORTANT;
+}
+.colorchange
+{
+	color:white!important;
+}
+.customtoggler
+{
+	color:white!important;
+}
+.sticky-top
+{
+	position:fixed;
+	width:100%;
+	color:white;
+	background-color: rgba(0,0,0,0.4) !important;
+}
+@media only screen and (max-width: 991px){ 
+.mobilenone
+{
+	display:none;
+}
+}
+@media only screen and (min-width: 991px){ 
+.mobileview
+{
+display:none	
+}
+}
+
+.bg-light
+{
+	background-color:transparent!important;
+	border-bottom:1px solid #dcdcdc;
+}

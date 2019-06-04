@@ -1,0 +1,77 @@
+.img-sty{
+    width: 100%;
+    height: 100%;
+    background-size: 100%  100%;
+}
+.slide-section .carousel-item{
+    height: 500px;
+}
+.slide-section .carousel-caption{
+    color:#000000;
+    background-color: #ffffff;
+    text-align: unset;
+    right: 50%;
+    left:10%;
+    bottom: -15%;
+    padding: 20px 30px 20px 50px;
+}
+@media only screen and (min-width:426px) and (max-width:991px){
+    .slide-section .carousel-caption{
+        right: 20%;
+        left:10%;
+    }
+}
+@media only screen and (max-width:425px){
+    .slide-section .carousel-caption{
+        right: 2%;
+        left: 2%;
+        bottom: -30%;
+    }
+}
+.slide-section .carousel-inner{
+    overflow: unset;
+}
+.slide-section .carousel-indicators{
+    display: none;
+}
+.slide-section .carousel-control-prev{
+    height: 5rem;
+    width: 5rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}
+.slide-section .carousel-control-next{
+    height: 5rem;
+    width: 5rem;
+    top: 50%;
+    right: -7.5%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+}
+.slide-section .carousel-control-next>span {
+    filter: invert(100%);
+}
+.slide-section .carousel-control-prev>span {
+    filter: invert(100%);
+}
+@media only screen and (min-width:992px) and (max-width:1199px){
+    .slide-section .carousel-control-next{
+        right: -9%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .slide-section .carousel-control-next{
+        right: -12.5%;
+    }
+}
+@media only screen and (min-width:426px) and (max-width:767px){
+    .slide-section .carousel-control-next{
+        right: -18%;
+    }
+}
+@media only screen and (max-width:425px){
+    .slide-section .carousel-control-next{
+        right: -24%;
+    }
+}

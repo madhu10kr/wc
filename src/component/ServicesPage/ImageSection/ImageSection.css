@@ -1,0 +1,297 @@
+.imageSectionHomeStaging .main-title{
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+
+.imageSectionHomeStaging .container{
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px){
+  .imageSectionHomeStaging .container{
+    display: block;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 900px){
+  .imageSectionHomeStaging .container{
+    width: 33.33333%;
+  }
+}
+
+.imageSectionHomeStaging .container .title{
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.imageSectionHomeStaging .content {
+  position: relative;
+  width: 100%;
+  /* max-width: 400px; */
+  margin: auto;
+  overflow: hidden;
+}
+
+.imageSectionHomeStaging .content .content-overlay {
+  background: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.imageSectionHomeStaging .content:hover .content-overlay{
+  opacity: 1;
+}
+
+.imageSectionHomeStaging .content-image{
+  width: 100%;
+}
+
+.imageSectionHomeStaging .content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 94%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.imageSectionHomeStaging .content:hover .content-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+.imageSectionHomeStaging .content-details h3{
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  text-align:left;
+}
+
+.imageSectionHomeStaging .content-details p {
+  color: #fff;
+  font-size: 1em;
+  margin: 0;
+  text-align: left;
+  margin-bottom: 0.5rem;
+}
+
+.imageSectionHomeStaging .fadeIn-top{
+  top: 20%;
+}
+
+.imageSectionHomeStaging .content a{
+	text-decoration:none;
+	color:#fff;
+}
+
+
+
+
+
+
+
+.imageSectionHomeStaging .content-details div{
+	  display: inline-block;
+    position: relative;
+    background: none;
+    border: none;
+    color: #fff;
+	  padding: 3rem;
+    width: 100%;
+    font-size: 18px;
+    cursor: pointer;
+    /* margin: 20px 30px; */
+    background: rgba(0,0,0,0.09);
+}
+.imageSectionHomeStaging span{
+  display: block;
+  text-align:left;
+  padding-top: 2rem;
+}
+.imageSectionHomeStaging .content-details div::before, .content-details div::after{
+  content:"";
+  width: 0;
+  height: 1px;
+  position: absolute;
+  transition: all 0.5s linear;
+  background: #fff;
+}
+
+.imageSectionHomeStaging span::before, span::after{
+  content:"";
+  width:1px;
+  height:0;
+  position: absolute;
+  transition: all 0.5s linear;
+  background: #fff;
+}
+.imageSectionHomeStaging .content-details div:hover::before, .content-details div:hover::after{
+  width: 100%;
+}
+.imageSectionHomeStaging .content-details div:hover span::before, .content-details div:hover span::after{
+  height: 100%;
+}
+
+
+/*----- button 6 -----*/
+.imageSectionHomeStaging .btn-6::before{
+  left: 50%;
+  top: 0;
+  transition-duration: 0.4s;
+}
+.imageSectionHomeStaging .btn-6::after{
+  left: 50%;
+  bottom: 0;
+  transition-duration: 0.4s;
+}
+.imageSectionHomeStaging .btn-6 span::before{
+  left: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+.imageSectionHomeStaging .btn-6 span::after{
+  right: 0;
+  top: 50%;
+  transition-duration: 0.4s;
+}
+.imageSectionHomeStaging .btn-6:hover::before, .btn-6:hover::after{
+  left: 0;
+}
+.imageSectionHomeStaging .btn-6:hover span::before, .btn-6:hover span::after{
+  top: 0;
+}
+
+.imageSectionHomeStaging .pds{
+	padding:6rem;
+}
+
+.imageSectionHomeStaging .imgPds{
+  padding: 0px;
+}
+
+
+
+.imageSectionHomeStaging .carousel-control-next, .carousel-control-prev {
+  width: 4%;
+  height: 9%;
+  background: black;
+  border-radius: 45px;
+  background-color: #000;
+  top: 50%;
+}
+
+.imageSectionHomeStaging .carousel-indicators{
+  display: none !important;
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+  .imageSectionHomeStaging .carousel-control-next, .carousel-control-prev {
+    width: 16%;
+    height: 4%;
+  }
+}
+
+
+@media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+.imageSectionHomeStaging .carousel-control-next, .carousel-control-prev {
+    width: 8%;
+    height: 2%;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .imageSectionHomeStaging span {
+    display: block;
+    text-align: left;
+    padding-top: 0rem;
+  }
+
+ .imageSectionHomeStaging  .content-details div {
+    padding: 1rem;
+  }
+
+  .imageSectionHomeStaging .content-details {
+    width: 100%;
+  }
+
+ .imageSectionHomeStaging  .content-details h3 {
+    font-size: 0.8em;
+  }
+
+ .imageSectionHomeStaging  .content-details p {
+    color: #fff;
+    font-size: 0.8em;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .imageSectionHomeStaging span {
+    display: block;
+    text-align: left;
+    padding-top: 0rem;
+  }
+
+  .imageSectionHomeStaging .content-details div {
+    padding: 4rem;
+    padding-left: 2rem;
+  }
+
+  .imageSectionHomeStaging .content-details {
+    width: 100%;
+  }
+
+ .imageSectionHomeStaging  .content-details h3 {
+    font-size: 0.8em;
+  }
+
+  .imageSectionHomeStaging .content-details p {
+    color: #fff;
+    font-size: 0.8em;
+    margin: 0;
+    text-align: left;
+    margin-bottom: 0.5rem;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2)  and (orientation: portrait)  {
+ .imageSectionHomeStaging  .content-details div {
+    padding: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) and (max-width: 2600px){
+ .imageSectionHomeStaging  .content-details div {
+    padding: 7rem;
+    padding-left: 2rem;
+  }
+}
